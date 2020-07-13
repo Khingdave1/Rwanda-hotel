@@ -1,0 +1,9 @@
+/* Small tablet to big tablet: from 991px to 1129px */
+@media only screen and (max-width: 1129px) {
+    .about-us_text {
+        width: 100%;
+    }
+    .about-us_img {
+        display: none;
+    }
+}

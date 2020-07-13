@@ -1,0 +1,55 @@
+/* Small tablet to big tablet: from 991px to 1129px */
+@media only screen and (max-width: 1094px) {
+    .room_item img {
+        width: 450px;
+    }
+}
+/* Screens from 931px to 1105px */
+@media only screen and (max-width: 968px) {
+    .intro_content,
+    .room_content {
+        padding: 4% 5%;
+    }
+}
+/* Screens from 860px to 930px */
+@media only screen and (max-width: 862px) {
+    .intro_content,
+    .room_content {
+        padding: 4% 7%;
+    }
+    .room_item {
+        display: grid;
+    }
+    .room_item img {
+        width: 100%;
+        height: 400px;
+    }
+    .room_odd .room_detail,
+    .room_even img {
+        margin-left: 0;
+    }
+    .room_odd img {
+        border-radius: 0;
+    }
+    .room_detail {
+        width: 100%;
+    }
+}
+/* Screens from 635px to 862px */
+@media only screen and (max-width: 634px) {
+    .intro_content,
+    .room_content {
+        padding: 4% 5%;
+    }
+    .room_item img {
+        width: 100%;
+        height: 350px;
+    }
+}
+/* Screens from 481px to 634px */
+@media only screen and (max-width: 480px) {
+    .room_item img {
+        width: 100%;
+        height: 250px;
+    }
+}

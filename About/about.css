@@ -1,0 +1,36 @@
+/* ABOUT SECTION */
+.about-us {
+    background-color: #fbfbfb;
+}
+.about-us_content {
+    padding: 7% 5%;
+    display: flex;
+    width: 100%;
+    line-height: 1.2;
+}
+.about-us_text {
+    width: 60%;
+}
+.about-us_text .sect_h1,
+.about-us_details h4 {
+    color: #021764;
+}
+.about-us_text .sect_h1 {
+    margin-bottom: 20px;
+}
+.about-us_details {
+    display: grid;
+    grid-gap: 20px;
+}
+.about-us li {
+    list-style: disc !important;
+}
+.about-us_img {
+    width: 38%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.about-us_img img {
+    width: 100%;
+    height: auto;
+}

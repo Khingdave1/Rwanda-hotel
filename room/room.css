@@ -1,0 +1,72 @@
+body {
+    background-color: #fbfbfb;
+}
+
+/* INTRO SECTION */
+.intro_content,
+.room_content {
+    padding: 4% 10%;
+}
+.intro_content {
+    background-color: #fff;
+    line-height: 1.4;
+}
+.intro_logo {
+    margin-bottom: 20px;
+}
+.intro_logo img {
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+}
+.intro_logo span {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    color: #000000;
+}
+intro_parag {
+    word-spacing: 5px;
+}
+/* ROOM SECTION */
+.room_content {
+    display: grid;
+    grid-gap: 50px;
+}
+.room_item {
+    display: flex;
+}
+.room_item:nth-child(2),
+.room_item:nth-child(4) {
+    flex-direction: row-reverse;
+}
+.room_item img {
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+}
+.room_detail {
+    background-color: rgba(2, 23, 100, 0.83);
+    color: #fff;
+    padding: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.room_detail .center {
+    display: grid;
+    grid-gap: 20px;
+}
+.book-btn {
+    width: 100px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #021764;
+    background-color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}

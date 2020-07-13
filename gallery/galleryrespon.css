@@ -1,0 +1,44 @@
+/* Small tablet to big tablet: from 991px to 1129px */
+@media only screen and (max-width: 1105px) {
+    .gallery_item img {
+        width: 450px;
+        height: 400px;
+    }
+}
+/* Screens from 931px to 1105px */
+@media only screen and (max-width: 930px) {
+    .gallery_content {
+        padding: 7% 5%;
+    }
+}
+/* Screens from 860px to 930px */
+@media only screen and (max-width: 859px) {
+    .gallery_item {
+        display: grid;
+    }
+    .gallery_item img {
+        width: 100%;
+    }
+    .gallery_odd .gallery_detail,
+    .gallery_even img {
+        margin-left: 0;
+    }
+    .gallery_odd img {
+        border-radius: 0;
+    }
+    .gallery_even .gallery_detail {
+        order: 2;
+    }
+    .gallery_even .image {
+        order: 1;
+    }
+    .gallery_detail {
+        width: 100%;
+    }
+}
+/* Screens from 546px to 859px */
+@media only screen and (max-width: 545px) {
+    .gallery_item img {
+        height: 300px;
+    }
+}
